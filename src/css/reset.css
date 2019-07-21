@@ -1,0 +1,32 @@
+html, body, h1, h2, h3, h4, h5, h6, div, ul, ul li, ol, ol li,
+input, label, textarea, select, option, button, span,
+p, select, header, footer, nav, i, b, br, hr, article {
+	margin: 0;
+	padding: 0;
+	font-weight: normal;
+}
+
+ul, ul li, ol, ol li {
+	list-style-type: none;
+}
+
+a {
+	text-decoration: none;
+	cursor: pointer;
+}
+
+input:focus,
+label:focus,
+textarea:focus,
+select:focus,
+option:focus,
+button:focus,
+a:focus {
+	outline: none;
+}
+
+* {
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+	box-sizing: border-box;
+}

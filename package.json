@@ -1,0 +1,45 @@
+{
+  "name": "andoiddemy",
+  "version": "1.0.0",
+  "description": "ANDROIDDEMY\r https://github.com/vtlxn/andoiddemy",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vtlxn/andoiddemy.git"
+  },
+  "author": "vtlxn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vtlxn/andoiddemy/issues"
+  },
+  "homepage": "https://github.com/vtlxn/andoiddemy#readme",
+  "devDependencies": {
+    "@babel/preset-env": "^7.2.0",
+    "gulp": "^3.9.1",
+    "gulp-clean": "^0.4.0",
+    "gulp-remove-html-comments": "^1.0.1",
+    "gulp-replace": "^1.0.0",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-tinypng-unlimited": "^1.0.3",
+    "gulp-uglify": "^3.0.1",
+    "gulp-version-number": "^0.2.0",
+    "run-sequence": "^2.2.1"
+  },
+  "dependencies": {
+    "@babel/core": "^7.2.0",
+    "babel-install": "^2.1.0",
+    "browser-sync": "^2.26.3",
+    "gulp-autoprefixer": "^6.0.0",
+    "gulp-babel": "^8.0.0",
+    "gulp-clean-css": "^4.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-concat-css": "^3.1.0",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.2",
+    "npm-install-all": "^1.1.21"
+  }
+}

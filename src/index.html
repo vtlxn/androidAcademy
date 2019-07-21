@@ -1,0 +1,2856 @@
+<?php Header("Cache-Control: max-age=3000, must-revalidate"); ?>
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-134721698-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-134721698-1');
+    </script>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge" /><![endif]-->
+    <title>Курсы по Android разработке - AndroidDemy</title>
+    <meta name="description"
+        content="Видеокурсы по разработке под Android с нуля. Комплексная программа обучения. Сертификация и консультации при обучении.">
+    <meta http-equiv="Content-language" content="ru">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Disable Phone number linking -->
+    <meta name="format-detection" content="telephone=no">
+    <meta http-equiv="x-rim-auto-match" content="none">
+
+    <!-- Place favicon.ico in the root directory -->
+    <link rel="icon" type="image/x-icon" href="favicon.png">
+
+    <!-- Fonts CSS -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,900&amp;subset=cyrillic"
+        rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="libs/bootstrap/4.1.3/css/bootstrap.min.css">
+
+    <!-- Vendor CSS -->
+    <link rel="stylesheet" href="libs/animate/animate.min.css">
+    <link rel="stylesheet" href="libs/slick/slick.css">
+    <link rel="stylesheet" href="libs/fancybox/jquery.fancybox.min.css">
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+
+</head>
+
+<body>
+
+    <div class="project">
+
+        <!-- Page Header : start -->
+        <header class="page-header fixed-top">
+            <div class="container">
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <a class="navbar-brand m_PageScroll2id" href="#top">
+                        <img src="img/logo.png" alt="Androiddemy.com Курсы Android по разработке">
+                    </a>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ml-auto">
+
+                            <li class="nav-item dropdown active">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Курсы
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item m_PageScroll2id" href="#course-1">Android Старт</a>
+                                    <a class="dropdown-item m_PageScroll2id" href="#course-2">Android Продвинутый</a>
+                                    <a class="dropdown-item m_PageScroll2id" href="#course-3">Дизайн
+                                        Android-приложений</a>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link m_PageScroll2id" href="#about">
+                                    О нас
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" data-fancybox data-src="#help" href="javascript:;">
+                                    Помощь
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link m_PageScroll2id" href="#footer">
+                                    Контакты
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="basket-top dropdown">
+                        <a data-fancybox data-src="#basket" href="javascript:;" class="btn btn-basket ">
+                            <span class="icon icon-basket"></span>
+                            <span>Корзина</span>
+                            <span class="badge" id="cart_items">
+                                0
+                            </span>
+                        </a>
+                    </div>
+
+                    <button class="navbar-toggler" type="button" data-toggle="collapse"
+                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                </nav>
+            </div>
+        </header> <!-- Page Header : end -->
+
+        <!-- Main content  : start -->
+        <main class="page-content">
+
+            <!-- Banner : start -->
+            <div class="intro" id="top">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="intro-thumb h-100">
+                                <img src="img/img-1.png" alt="" class="img-fluid mx-auto mx-lg-0">
+
+                                <ul class="social-list list-inline">
+                                    <!-- <li class="list-inline-item">
+                                        <a href="#" target="_blank" class="social-link social-instagram">
+                                            <span class="icon icon-insta"></span>
+                                        </a>
+                                    </li> -->
+                                    <li class="list-inline-item">
+                                        <a href="https://t.me/androiddemy" target="_blank"
+                                            class="social-link social-telegram">
+                                            <span class="icon icon-telegram"></span>
+                                        </a>
+                                    </li>
+                                    <li class="list-inline-item">
+                                        <a href="javascript:void(Tawk_API.toggle())" target="_blank"
+                                            class="social-link social-wapp">
+                                            <span class="icon icon-wapp"></span>
+                                        </a>
+                                    </li>
+                                    <li class="list-inline-item">
+                                        <a href="mailto:support@androiddemy.com" class="social-link social-mail">
+                                            <span class="icon icon-mail"></span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6">
+                            <div class="intro-inner">
+                                <h1 class="intro-title">
+                                    Курсы по Android разработке
+                                </h1>
+
+                                <ul class="intro-list">
+                                    <li class="intro-item wow fadeInRight" data-wow-delay="0.1s">
+                                        <div class="d-flex align-items-center">
+                                            <div class="intro-item__icon">
+                                                <img src="img/i-1.png" alt="">
+                                            </div>
+
+                                            <div class="intro-item__text">
+                                                Вы пройдете путь от абсолютного новичка до самостоятельного Android
+                                                разработчика
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="intro-item wow fadeInRight" data-wow-delay="0.2s">
+                                        <div class="d-flex align-items-center">
+                                            <div class="intro-item__icon">
+                                                <img src="img/i-2.png" alt="">
+                                            </div>
+
+                                            <div class="intro-item__text">
+                                                Получите фундаментальные основы <br>программирования на языке Java и
+                                                научитесь работать в среде Android Studio
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="intro-item wow fadeInRight" data-wow-delay="0.3s">
+                                        <div class="d-flex align-items-center">
+                                            <div class="intro-item__icon">
+                                                <img src="img/i-3.png" alt="">
+                                            </div>
+
+                                            <div class="intro-item__text">
+                                                Разработаете полнофункциональное Android приложение, и опубликуете его в
+                                                Google Play
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+
+                                <div class="intro-start">
+                                    <a href="#course-1" class="m_PageScroll2id btn btn-intro btn-success">
+                                        <img src="img/icon-android.png" alt="" class="icon-a">
+                                        Начать обучение сейчас
+                                    </a>
+
+                                    <div class="intro-info text-center wow fadeInRight" data-wow-delay="1.2s">
+                                        Скидка <strong>-20%</strong> на все курсы обучения<span
+                                            class="icon icon-stamp"></span>
+
+                                        <div class="price-time price-time--header">
+                                            Осталось: <span class="timer price-time__val" data-timer></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> <!-- Banner : end -->
+
+            <!-- About : start -->
+            <div id="about" class="about section">
+                <div class="container">
+                    <h2 class="section-title text-center">
+                        Курсы Android Demy
+                    </h2>
+
+                    <div class="row">
+                        <!-- <div class="col-lg-4">
+                            <div class="section-text">
+                                <h6>Программирование под Android с нуля</h6>
+
+                                <p class="intro-text">
+									Удивительно, но, несмотря на колоссальную популярность Android разработки, в этой сфере деятельности катастрофически мало качественных обучающих курсов, особенно на русском языке. Мы решили заполнить этот пробел и создали полноценный обучающий видеокурс по разработке приложений под Android!
+                                </p>
+                            </div>
+                        </div> -->
+
+                        <div class="col-lg-12 text-center text-lg-center">
+                            <div class="about-video">
+                                <a data-fancybox data-width="640" data-height="360" href="media/video-1.mp4">
+                                    <img src="img/video-1.png" alt="" class="img-fluid">
+
+                                    <span class="video-mask">
+                                        <span class="video-mask__inner">
+                                            <span class="icon icon-play"></span>
+
+                                            <span class="video-title">Об этом курсе</span>
+                                        </span>
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div> <!-- About : end -->
+
+            <!-- Features of training : start -->
+            <div class="features secton">
+                <div class="container">
+                    <h2 class="section-title text-center">
+                        Особенности обучения в Android Academy
+                    </h2>
+
+                    <div class="row">
+
+                        <div class="col-md-6 col-lg-3">
+                            <div class="features-item">
+                                <div class="features-icon">
+                                    <img src="img/f-1.png" alt="">
+                                </div>
+                                <h6 class="features-name">
+                                    Комплексное обучение
+                                </h6>
+
+                                <div class="features-text">
+                                    Вы начнете с самого нуля. По окончанию вы создадите свое первое серьезное
+                                    Android-приложение и выгрузите его в Google Play.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 col-lg-3">
+                            <div class="features-item">
+                                <div class="features-icon">
+                                    <img src="img/f-4.png" alt="">
+                                </div>
+                                <h6 class="features-name">
+                                    Постоянные обновления
+                                </h6>
+
+                                <div class="features-text">
+                                    Курсы обновлены в 2019 году. Обучение проходит по самому последнему стеку технологий
+                                    для Android-разработки.
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 col-lg-3">
+                            <div class="features-item">
+                                <div class="features-icon">
+                                    <img src="img/f-3.png" alt="">
+                                </div>
+                                <h6 class="features-name">
+                                    Обучение без интернета
+                                </h6>
+
+                                <div class="features-text">
+                                    Все наши уроки и материалы обучения скачиваются. Постоянный доступ в интернет не
+                                    нужен.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 col-lg-3">
+                            <div class="features-item">
+                                <div class="features-icon">
+                                    <img src="img/f-2.png" alt="">
+                                </div>
+                                <h6 class="features-name">
+                                    Вопросы разработчику
+                                </h6>
+
+                                <div class="features-text">
+                                    Каждый ученик наших курсов может задавать вопросы касательно обучения. Вы получите
+                                    ответ в течение 24 часов.
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div> <!-- Features of training : end -->
+
+            <!-- Get Knowledge : start -->
+            <!-- <div class="knowledge secton">
+                <div class="container">
+                    <h2 class="section-title text-center">
+                        После обучения вы научитесь:
+                    </h2>                    
+
+                    <div class="row">
+                        
+                        <div class="col-md-6 col-lg-4">
+                            <div class="knowledge-item">
+                                <div class="knowledge-head d-flex align-items-center">
+                                    <div class="knowledge-icon">
+                                        <img src="img/k-1.png" alt="">
+                                    </div>
+
+                                    <h6 class="knowledge-name">
+                                        Создавать современные <br>Android-приложения
+                                    </h6>
+                                </div>
+                                <div class="knowledge-body">
+                                    <div class="knowledge-text">
+                                        Для этого вы освоите весь базовый функционал в актуальном исполнении: Activity, Layout, Fragments, REST API, Manifest. У ваших приложений будет полный набор обязательных элементов: кнопки, картинки, вкладки, стили, авторизация.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 col-lg-4">
+                            <div class="knowledge-item">
+                                <div class="knowledge-head d-flex align-items-center">
+                                    <div class="knowledge-icon">
+                                        <img src="img/k-2.png" alt="">
+                                    </div>
+
+                                    <h6 class="knowledge-name">
+                                        Быстро воплощать свои идеи в жизнь
+                                    </h6>
+                                </div>
+                                <div class="knowledge-body">
+                                    <div class="knowledge-text">
+                                        Вы не поверите, но от появления основной идеи приложения до его полной готовности к публикации в Google Play Store может пройти всего 21 день. Именно в такие сроки вы можете реализовать свой проект на Android с помощью наших преподавателей, наставников и базы знаний.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 col-lg-4">
+                            <div class="knowledge-item">
+                                <div class="knowledge-head d-flex align-items-center">
+                                    <div class="knowledge-icon">
+                                        <img src="img/k-3.png" alt="">
+                                    </div>
+
+                                    <h6 class="knowledge-name">
+                                        Использовать все необходимые инструменты
+                                    </h6>
+                                </div>
+                                <div class="knowledge-body">
+                                    <div class="knowledge-text">
+                                        Вы будете работать в Android Studio и не только. Поддержка Material Design в Design Support Library, интернет через Retrofit, сборка в Gradle и препродакшн с помощью Proguard. Всё это обычные инструменты, которыми пользуются Android-разработчики как в студиях, так и на фрилансе.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>  -->
+            <!-- Get Knowledge : end -->
+
+            <!-- COURSE Beginer : start -->
+            <div id="course-1" class="course course-start section">
+                <div class="container">
+                    <div class="section-head bg-2 text-center">
+                        <h2 class="section-title text-white">
+                            Курс 1. Android Старт
+                        </h2>
+                        <div class="section-meta text-white">
+                            Основы программирования на Java, Знакомство со средой разработки Android Studio, Первые
+                            простые приложения
+                        </div>
+                    </div>
+
+                    <div class="course-inner">
+                        <div class="row">
+                            <div class="col-lg-7">
+
+                                <div class="d-sm-flex align-items-center justify-content-between">
+                                    <div class="fact fact-lg bg-2">
+                                        <div class="d-flex align-items-center">
+                                            <div class="fact-icon">
+                                                <span class="icon icon-dur"></span>
+                                            </div>
+                                            <div class="fact-text">
+                                                <strong>7</strong> часов и <strong>48</strong> минут
+                                                видеоматериала
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="fact fact-lg bg-2-reverse">
+                                        <div class="d-flex align-items-center flex-sm-row-reverse">
+                                            <div class="fact-icon">
+                                                <span class="icon icon-student"></span>
+                                            </div>
+                                            <div class="fact-text">
+                                                <strong>36</strong> видеоуроков <br>в <strong>6</strong> разделах
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="d-sm-flex align-items-center justify-content-between">
+                                    <div class="fact bg-4">
+                                        <div class="d-flex align-items-center">
+                                            <div class="fact-text">
+                                                Домашние <br>задания
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="fact bg-4">
+                                        <div class="d-flex align-items-center">
+                                            <div class="fact-text">
+                                                Вспомогаленые <br>материалы
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="fact bg-4">
+                                        <div class="d-flex align-items-center">
+                                            <div class="fact-text">
+                                                Исходники проектов <br>курса
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="consultation bg-5">
+                                    <div class="d-sm-flex align-items-center">
+                                        <div class="consultation-icon">
+                                            <img src="img/icon-consultation.png" alt="">
+                                        </div>
+
+                                        <div class="consultation-body">
+                                            <h6 class="consultation-title">
+                                                Консультации с Android-разработчиком
+                                            </h6>
+
+                                            <div class="consultation-text">
+                                                У вас удет возможность задавать вопросы специалисту по Android
+                                                разработке. В течение 24 часов вы получите ответ на любой вопрос,
+                                                который возникнет у вас при прохождении данного курса.
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="col-lg-5">
+
+                                <div class="course-video">
+                                    <a data-fancybox href="media/course-1.mp4">
+                                        <img src="img/video-2.png" alt="" class="img-fluid">
+
+                                        <span class="video-mask">
+                                            <span class="video-mask__inner">
+                                                <span class="icon icon-play"></span>
+
+                                                <span class="video-title">Демо видео</span>
+                                            </span>
+                                        </span>
+                                    </a>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-lg-7 mb-4">
+
+                                <div class="consultation mb-0 h-100 bg-6">
+                                    <div class="d-sm-flex align-items-center">
+                                        <div class="consultation-icon">
+                                            <img src="img/icon-sert.png" alt="">
+                                        </div>
+
+                                        <div class="consultation-body">
+                                            <h6 class="consultation-title">
+                                                Сертификат об окончании
+                                            </h6>
+
+                                            <div class="consultation-text">
+                                                После прохождения курса и успешного выполнения финального теста вы
+                                                получите сертификат, который поможет вам при устройстве на работу. Более
+                                                подробную информацию вы можете узнать в разделе помощь.
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="col-lg-5 mb-4">
+
+                                <div class="price mb-0 bg-7">
+                                    <div class="d-flex flex-wrap">
+
+                                        <div class="price-col">
+                                            <div class="price-total">
+                                                <div class="price-new">
+                                                    <span class="price-val" data-sale="59"
+                                                        data-priceHandler=959>959</span>
+                                                    &#8381;
+                                                    <!-- <span class="icon icon-rub"></span> -->
+                                                </div>
+
+                                                <div class="price-old">
+                                                    <span class="price-val">1199</span>
+                                                    &#8381;
+
+                                                </div>
+                                            </div>
+                                            <div class="price-time">
+                                                Осталось: <span class="timer price-time__val" data-timer></span>
+                                            </div>
+
+                                        </div>
+
+                                        <div class="price-col">
+                                            <div class="coupon">
+                                                <div>
+                                                    <div class="coupon-label" data-cuponText>
+                                                        Есть скидочный купон?
+                                                    </div>
+                                                    <div class="coupon-group">
+                                                        <input type="text" name="coupon" class="coupon-control"
+                                                            placeholder="Введите купон" data-cuponInp>
+                                                        <button class="btn coupon-btn" data-cuponBtn>
+                                                            Применить
+                                                        </button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="price-col">
+                                            <button class="d-block btn btn-lg btn-success" data-addCourse="1">
+                                                Добавить в корзину
+                                            </button>
+                                        </div>
+
+                                        <div class="price-col">
+
+                                            <a data-fancybox data-src="#basket" href="javascript:;"
+                                                class="d-block btn btn-lg btn-outline-light">
+                                                Перейти к корзине
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-lg-7">
+                                <div class="course-body">
+                                    <h6 class="course-subtitle">
+                                        Описание курса
+                                    </h6>
+
+                                    <p>
+                                        Этот курс предназначен для тех, кто только начинает свой путь
+                                        Android-разработчика. Если вы новичок, и вам малознакомы такие процессы, как
+                                        “программирование”, “компиляция” и другие - то этот курс именно для вас! Мир
+                                        интернета наполнен различными приложениями, и чтобы выделяться среди них, - мало
+                                        иметь красивый внешний вид. Обязательным условием современного мобильного
+                                        приложения является выполнение различных функций.
+
+                                    </p>
+                                    <p>
+                                        Для этого необходимо знать язык Java, который является неотъемлемой частью
+                                        разработки Android приложений. Мы посвятили ему большую часть первого курса. Вас
+                                        ожидает много полезной информации, которую мы выстроили по методике
+                                        интерактивного обучения на практике.
+                                    </p>
+                                    <p>
+                                        Так что не волнуйтесь, мы специально подобрали и предоставили материал таким
+                                        образом, чтобы он был понятен и школьникам, и студентам, и даже людям различных
+                                        нетехнических профессий, - для всех, кто не имеет никакого опыта в
+                                        программировании.
+
+                                    </p>
+                                    <p>
+                                        После первой секции мы займемся разработкой ваших первых приложений. По
+                                        окончанию первого курса обучения вы научитесь создавать простые интерактивные
+                                        Android-приложения, и сможете незамедлительно приступить к изучению второго -
+                                        продвинутого курса, который даст вам все необходимые знания для начала
+                                        самостоятельного пути Android-разработчика.
+                                    </p>
+
+                                </div>
+
+                                <div class="course-body">
+                                    <h6 class="course-subtitle">
+                                        Минимальные требования
+                                    </h6>
+
+                                    <p>
+                                        Наличие компьютера, интернета и желания учиться. Остальные требования
+                                        отсутствуют.
+                                    </p>
+                                </div>
+
+                            </div>
+
+                            <div class="col-lg-5">
+                                <div class="course-list">
+                                    <div class="course-list__head">
+                                        <span class="icon icon-list"></span>
+                                        Список тем и уроков
+                                    </div>
+
+                                    <ul class="course-list__body accordion" id="course-list1">
+
+                                        <li class="course-list__item">
+
+                                            <div class="course-list__item-inner" id="course-heading11">
+                                                <a data-toggle="collapse" href="#c1-1" data-toggle="collapse"
+                                                    data-target="#c1-1" aria-expanded="true" aria-controls="c1-1"></a>
+
+                                                <span>Изучаем язык Java. Часть 1</span>
+
+                                                <span class="course-list__dur">
+                                                    01:58:44
+                                                </span>
+
+                                            </div>
+
+                                            <ul class="collapse show" id="c1-1" aria-labelledby="course-heading11"
+                                                data-parent="#course-list1">
+                                                <li class="course-list__item">
+                                                    <div class="course-list__item-inner">
+                                                        <span>Установка среды разработки</span>
+
+                                                        <span class="course-list__dur">
+                                                            04:01
+                                                        </span>
+                                                    </div>
+                                                </li>
+
+                                                <li class="course-list__item">
+                                                    <div class="course-list__item-inner">
+                                                        <span>Первая программа Hello World</span>
+
+                                                        <span class="course-list__dur">
+                                                            07:13
+                                                        </span>
+                                                    </div>
+                                                </li>
+
+                                                <li class="course-list__item">
+                                                    <div class="course-list__item-inner">
+                                                        <span>Переменные</span>
+
+                                                        <span class="course-list__dur">
+                                                            13:36
+                                                        </span>
+                                                    </div>
+                                                </li>
+                                                <li class="course-list__item">
+                                                    <div class="course-list__item-inner">
+                                                        <span>Условные операторы</span>
+
+                                                        <span class="course-list__dur">
+                                                            06:54
+                                                        </span>
+                                                    </div>
+                                                </li>
+                                                <li class="course-list__item">
+                                                    <div class="course-list__item-inner">
+                                                        <span>Типы данных. Целые числа</span>
+
+                                                        <span class="course-list__dur">
+                                                            12:19
+                                                        </span>
+                                                    </div>
+                                                </li>
+                                                <li class="course-list__item">
+                                                    <div class="course-list__item-inner">
+                                                        <span>Типы данных. Примитивные типы</span>
+
+                                                        <span class="course-list__dur">
+                                                            19:59
+                                                        </span>
+                                                    </div>
+                                                </li>
+                                                <li class="course-list__item">
+                                                    <div class="course-list__item-inner">
+                                                        <span>Циклы</span>
+
+                                                        <span class="course-list__dur">
+                                                            16:59
+                                                        </span>
+                                                    </div>
+                                                </li>
+                                                <li class="course-list__item">
+                                                    <div class="course-list__item-inner">
+                                                        <span>Массивы</span>
+
+                                                        <span class="course-list__dur">
+                                                            18:59
+                                                        </span>
+                                                    </div>
+                                                </li>
+                                                <li class="course-list__item">
+                                                    <div class="course-list__item-inner">
+                                                        <span>Закрываем пробелы. String и Switch Case</span>
+
+                                                        <span class="course-list__dur">
+                                                            18:44
+                                                        </span>
+                                                    </div>
+                                                </li>
+
+
+                                            </ul>
+                                        </li>
+
+                                        <li class="course-list__item" id="course-heading12">
+                                            <div class="course-list__item-inner">
+                                                <a data-toggle="collapse" data-toggle="collapse" data-target="#c1-2"
+                                                    aria-expanded="false" aria-controls="c1-2"></a>
+
+                                                <span>Изучаем язык Java. Часть 2</span>
+
+                                                <span class="course-list__dur">
+                                                    02:02:29
+                                                </span>
+
+                                            </div>
+
+                                            <ul class="collapse" id="c1-2" aria-labelledby="course-heading12"
+                                                data-parent="#course-list1">
+                                                <li class="course-list__item">
+                                                    <div class="course-list__item-inner">
+                                                        <span>Введение в ООП</span>
+
+                                                        <span class="course-list__dur">
+                                                            12:30
+                                                        </span>
+                                                    </div>
+                                                </li>
+
+                                                <li class="course-list__item">
+                                                    <div class="course-list__item-inner">
+                                                        <span>Введение в методы</span>
+
+                                                        <span class="course-list__dur">
+                                                            10:23
+                                                        </span>
+                                                    </div>
+                                                </li>
+
+                                                <li class="course-list__item">
+                                                    <div class="course-list__item-inner">
+                                                        <span>Параметризированные методы</span>
+
+                                                        <span class="course-list__dur">
+                                                            07:55
+                                                        </span>
+                                                    </div>
+                                                </li>
+                                                <li class="course-list__item">
+                                                    <div class="course-list__item-inner">
+                                                        <span>Конструкторы</span>
+
+                                                        <span class="course-list__dur">
+                                                            07:46
+                                                        </span>
+                                                    </div>
+                                                </li>
+                                                <li class="course-list__item">
+                                                    <div class="course-list__item-inner">
+                                                        <span>Перегрузка методов и конструкторов</span>
+
+                                                        <span class="course-list__dur">
+                                                            16:07
+                                                        </span>
+                                                    </div>
+                                                </li>
+                                                <li class="course-list__item">
+                                                    <div class="course-list__item-inner">
+                                                        <span>Объекты в качестве параметров и возврат объектов</span>
+
+                                                        <span class="course-list__dur">
+                                                            14:44
+                                                        </span>
+                                                    </div>
+                                                </li>
+                                                <li class="course-list__item">
+                                                    <div class="course-list__item-inner">
+                                                        <span>Модификаторы доступа</span>
+
+                                                        <span class="course-list__dur">
+                                                            16:16
+                                                        </span>
+                                                    </div>
+                                                </li>
+                                                <li class="course-list__item">
+                                                    <div class="course-list__item-inner">
+                                                        <span>Ключевые слова static и final</span>
+
+                                                        <span class="course-list__dur">
+                                                            13:14
+                                                        </span>
+                                                    </div>
+                                                </li>
+                                                <li class="course-list__item">
+                                                    <div class="course-list__item-inner">
+                                                        <span>Создаем собственную коллекцию</span>
+
+                                                        <span class="course-list__dur">
+                                                            23:34
+                                                        </span>
+                                                    </div>
+                                                </li>
+
+                                            </ul>
+                                        </li>
+
+                                        <li class="course-list__item" id="course-heading13">
+                                            <div class="course-list__item-inner">
+                                                <a data-toggle="collapse" href="#c1-3" data-toggle="collapse"
+                                                    data-target="#c1-3" aria-expanded="false" aria-controls="c1-3"> </a>
+
+                                                <span>Изучаем язык Java. Часть 3</span>
+
+                                                <span class="course-list__dur">
+                                                    02:11:37
+                                                </span>
+
+                                            </div>
+
+                                            <ul class="collapse" id="c1-3" aria-labelledby="course-heading13"
+                                                data-parent="#course-list1">
+                                                <li class="course-list__item">
+                                                    <div class="course-list__item-inner">
+                                                        <span>Import, оболочки типов, работа со строками</span>
+
+                                                        <span class="course-list__dur">
+                                                            11:54
+                                                        </span>
+                                                    </div>
+                                                </li>
+
+                                                <li class="course-list__item">
+                                                    <div class="course-list__item-inner">
+                                                        <span>Встроенные коллекции</span>
+
+                                                        <span class="course-list__dur">
+                                                            12:03
+                                                        </span>
+                                                    </div>
+                                                </li>
+
+                                                <li class="course-list__item">
+                                                    <div class="course-list__item-inner">
+                                                        <span>Наследование </span>
+
+                                                        <span class="course-list__dur">
+                                                            39:07
+                                                        </span>
+                                                    </div>
+                                                </li>
+
+                                                <li class="course-list__item">
+                                                    <div class="course-list__item-inner">
+                                                        <span>Интерфейсы. Анонимные классы</span>
+
+                                                        <span class="course-list__dur">
+                                                            26:34
+                                                        </span>
+                                                    </div>
+                                                </li>
+
+                                                <li class="course-list__item">
+                                                    <div class="course-list__item-inner">
+                                                        <span>Обработка исключений</span>
+
+                                                        <span class="course-list__dur">
+                                                            11:09
+                                                        </span>
+                                                    </div>
+                                                </li>
+
+                                                <li class="course-list__item">
+                                                    <div class="course-list__item-inner">
+                                                        <span>Генератор случайных чисел</span>
+
+                                                        <span class="course-list__dur">
+                                                            11:31
+                                                        </span>
+                                                    </div>
+                                                </li>
+
+                                                <li class="course-list__item">
+                                                    <div class="course-list__item-inner">
+                                                        <span>Многопоточное программирование</span>
+
+                                                        <span class="course-list__dur">
+                                                            18:22
+                                                        </span>
+                                                    </div>
+                                                </li>
+
+                                                <li class="course-list__item">
+                                                    <div class="course-list__item-inner">
+                                                        <span>Итоги раздела</span>
+
+                                                        <span class="course-list__dur">
+                                                            00:56
+                                                        </span>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </li>
+
+                                        <li class="course-list__item" id="course-heading14">
+                                            <div class="course-list__item-inner">
+                                                <a data-toggle="collapse" href="#c1-4" data-toggle="collapse"
+                                                    data-target="#c1-4" aria-expanded="false" aria-controls="c1-4"></a>
+
+                                                <span>Android Studio. Создание первого приложения</span>
+
+                                                <span class="course-list__dur">
+                                                    22:21
+                                                </span>
+
+                                            </div>
+
+                                            <ul class="collapse" id="c1-4" aria-labelledby="course-heading14"
+                                                data-parent="#course-list1">
+                                                <li class="course-list__item">
+                                                    <div class="course-list__item-inner">
+                                                        <span>Установка Android Studio</span>
+
+                                                        <span class="course-list__dur">
+                                                            02:46
+                                                        </span>
+                                                    </div>
+                                                </li>
+
+                                                <li class="course-list__item">
+                                                    <div class="course-list__item-inner">
+                                                        <span>Создание первого приложения</span>
+
+                                                        <span class="course-list__dur">
+                                                            09:33
+                                                        </span>
+                                                    </div>
+                                                </li>
+
+                                                <li class="course-list__item">
+                                                    <div class="course-list__item-inner">
+                                                        <span>Модифицируем наше приложение</span>
+
+                                                        <span class="course-list__dur">
+                                                            10:02
+                                                        </span>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </li>
+
+                                        <li class="course-list__item" id="course-heading15">
+                                            <div class="course-list__item-inner">
+                                                <a data-toggle="collapse" href="#c1-5" data-toggle="collapse"
+                                                    data-target="#c1-5" aria-expanded="false" aria-controls="c1-5"></a>
+
+                                                <span>Построение интерактивных приложений</span>
+
+                                                <span class="course-list__dur">
+                                                    33:50
+                                                </span>
+
+                                            </div>
+
+                                            <ul class="collapse" id="c1-5" aria-labelledby="course-heading15"
+                                                data-parent="#course-list1">
+                                                <li class="course-list__item">
+                                                    <div class="course-list__item-inner">
+                                                        <span>Создание приложения Color Descriptor</span>
+
+                                                        <span class="course-list__dur">
+                                                            18:00
+                                                        </span>
+                                                    </div>
+                                                </li>
+
+                                                <li class="course-list__item">
+                                                    <div class="course-list__item-inner">
+                                                        <span>Color Descriptor. Часть 2</span>
+
+                                                        <span class="course-list__dur">
+                                                            15:50
+                                                        </span>
+                                                    </div>
+                                                </li>
+
+
+                                            </ul>
+                                        </li>
+
+                                        <li class="course-list__item" id="course-heading16">
+                                            <div class="course-list__item-inner">
+                                                <a data-toggle="collapse" href="#c1-6" data-toggle="collapse"
+                                                    data-target="#c1-6" aria-expanded="false" aria-controls="c1-6"></a>
+
+                                                <span>Приложения с несколькими активностями</span>
+
+                                                <span class="course-list__dur">
+                                                    38:16
+                                                </span>
+
+                                            </div>
+
+                                            <ul class="collapse" id="c1-6" aria-labelledby="course-heading15"
+                                                data-parent="#course-list1">
+                                                <li class="course-list__item">
+                                                    <div class="course-list__item-inner">
+                                                        <span>Добавляем вторую активность</span>
+
+                                                        <span class="course-list__dur">
+                                                            11:35
+                                                        </span>
+                                                    </div>
+                                                </li>
+
+                                                <li class="course-list__item">
+                                                    <div class="course-list__item-inner">
+                                                        <span>Запускаем вторую активность</span>
+
+                                                        <span class="course-list__dur">
+                                                            10:47
+                                                        </span>
+                                                    </div>
+                                                </li>
+
+                                                <li class="course-list__item">
+                                                    <div class="course-list__item-inner">
+                                                        <span>Отправляем сообщения другим людям</span>
+
+                                                        <span class="course-list__dur">
+                                                            15:54
+                                                        </span>
+                                                    </div>
+                                                </li>
+
+
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div> <!-- COURSE Beginer : end -->
+
+            <!-- COURSE Advanced : start -->
+            <div id="course-2" class="course course-start section">
+                <div class="container">
+                    <div class="section-head bg-3 text-center">
+                        <h2 class="section-title text-white">
+                            Курс 2. Android Продвинутый
+                        </h2>
+                        <div class="section-meta text-white">
+                            Создание интерфейсов, Использование элементов Material Design, Базы Данных, Разработка
+                            современных приложений
+                        </div>
+                    </div>
+
+                    <div class="course-inner">
+                        <div class="row">
+                            <div class="col-lg-7">
+
+                                <div class="d-sm-flex align-items-center justify-content-between">
+                                    <div class="fact fact-lg bg-22">
+                                        <div class="d-flex align-items-center">
+                                            <div class="fact-icon">
+                                                <span class="icon icon-dur"></span>
+                                            </div>
+                                            <div class="fact-text">
+                                                <strong>12</strong> часов и <strong>17</strong> минут
+                                                видеоматериала
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="fact fact-lg bg-22-reverse">
+                                        <div class="d-flex align-items-center flex-sm-row-reverse">
+                                            <div class="fact-icon">
+                                                <span class="icon icon-student"></span>
+                                            </div>
+                                            <div class="fact-text">
+                                                <strong>44</strong> видеоурока <br>в <strong>6</strong> разделах
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="d-sm-flex align-items-center justify-content-between">
+                                    <div class="fact bg-44">
+                                        <div class="d-flex align-items-center">
+                                            <div class="fact-text">
+                                                Домашние <br>задания
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="fact bg-44">
+                                        <div class="d-flex align-items-center">
+                                            <div class="fact-text">
+                                                Вспомогаленые <br>материалы
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="fact bg-44">
+                                        <div class="d-flex align-items-center">
+                                            <div class="fact-text">
+                                                Исходники проектов <br>курса
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="consultation bg-5">
+                                    <div class="d-sm-flex align-items-center">
+                                        <div class="consultation-icon">
+                                            <img src="img/icon-consultation.png" alt="">
+                                        </div>
+
+                                        <div class="consultation-body">
+                                            <h6 class="consultation-title">
+                                                Консультации с Android-разработчиком
+                                            </h6>
+
+                                            <div class="consultation-text">
+                                                У вас удет возможность задавать вопросы специалисту по Android
+                                                разработке. В течение 24 часов вы получите ответ на любой вопрос,
+                                                который возникнет у вас при прохождении данного курса.
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="col-lg-5">
+
+                                <div class="course-video">
+                                    <a data-fancybox data-width="640" data-height="360" href="media/course-2.mp4">
+                                        <img src="img/video-3.png" alt="" class="img-fluid">
+
+                                        <span class="video-mask">
+                                            <span class="video-mask__inner">
+                                                <span class="icon icon-play"></span>
+
+                                                <span class="video-title">Демо видео</span>
+                                            </span>
+                                        </span>
+                                    </a>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-lg-7 mb-4">
+
+                                <div class="consultation mb-0 h-100 bg-6">
+                                    <div class="d-sm-flex align-items-center">
+                                        <div class="consultation-icon">
+                                            <img src="img/icon-sert.png" alt="">
+                                        </div>
+
+                                        <div class="consultation-body">
+                                            <h6 class="consultation-title">
+                                                Сертификат об окончании
+                                            </h6>
+
+                                            <div class="consultation-text">
+                                                После прохождения курса и успешного выполнения финального теста вы
+                                                получите сертификат, который поможет вам при устройстве на работу. Более
+                                                подробную информацию вы можете узнать в разделе помощь.
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="col-lg-5 mb-4">
+
+                                <div class="price mb-0 bg-77">
+                                    <div class="d-flex flex-wrap">
+
+                                        <div class="price-col">
+                                            <div class="price-total">
+                                                <div class="price-new">
+                                                    <span class="price-val" data-sale="59" data-priceHandler=1199>
+                                                        1199
+                                                    </span>
+                                                    &#8381;
+                                                    <!-- <span class="icon icon-rub"></span> -->
+                                                </div>
+
+                                                <div class="price-old">
+                                                    <span class="price-val">
+                                                        1499
+                                                    </span>
+                                                    &#8381;
+                                                </div>
+                                            </div>
+                                            <div class="price-time">
+                                                Осталось: <span class="timer price-time__val" data-timer></span>
+                                            </div>
+                                        </div>
+
+                                        <div class="price-col">
+                                            <div class="coupon">
+                                                <div>
+                                                    <div class="coupon-label" data-cuponText>
+                                                        Есть скидочный купон?
+                                                    </div>
+                                                    <div class="coupon-group">
+                                                        <input type="text" name="coupon" class="coupon-control"
+                                                            placeholder="Введите купон" data-cuponInp>
+
+                                                        <button class="btn coupon-btn" data-cuponBtn>
+                                                            Применить
+                                                        </button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="price-col">
+                                            <button class="d-block btn btn-lg btn-success" data-addCourse="2">
+                                                Добавить в корзину
+                                            </button>
+                                        </div>
+
+                                        <div class="price-col">
+
+                                            <a data-fancybox data-src="#basket" href="javascript:;"
+                                                class="d-block btn btn-lg btn-outline-light">
+                                                Перейти к корзине
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-lg-7">
+                                <div class="course-body">
+                                    <h6 class="course-subtitle">
+                                        Описание курса
+                                    </h6>
+
+                                    <p>
+                                        Данный курс является продолжением курса «Android Старт», в котором вы уже
+                                        изучили основы программирования на языке Java, познакомились с созданием
+                                        интерфейсов в Android, а также установили, настроили, и создали ваши первые
+                                        простые мобильные приложения в среде разработки Android Studio.
+                                    </p>
+                                    <p>
+                                        Мы продолжаем изучение, и далее вас ждет самое важное и интересное - детальное
+                                        углубление в принципы построения полноценных Android-приложений, финальной целью
+                                        которого будет разработка первого серьезного Android-приложения и его публикация
+                                        в Google Play.
+                                    </p>
+                                    <p>
+                                        Вы научитесь полноценно работать с активностями, создавать дизайн и правильный
+                                        UI приложений, работать с базами данных и многое другое. С каждым уроком мы
+                                        будем добавлять все больше новых образовательных элементов, тем самым их
+                                        усложняя.
+                                    </p>
+                                    <p>
+                                        Финальный проект курса является своеобразным аналогом Кинопоиска - приложение
+                                        будет содержать список популярных фильмов вместе с информацией о них, также
+                                        иметь возможность читать отзывы, смотреть трейлеры и аналогичный функционал.
+                                    </p>
+                                    <p>
+                                        По окончанию данного курса вы будете иметь достаточное количество знаний и опыта
+                                        для того, чтобы начать самостоятельный путь Android-разработчика.
+                                    </p>
+                                    <p>
+                                        &nbsp;<br>
+                                    </p>
+
+
+                                </div>
+
+                                <div class="course-body">
+                                    <h6 class="course-subtitle">
+                                        Минимальные требования
+                                    </h6>
+
+                                    <p>
+                                        Для прохождения этого курса вам необходимо иметь базу знаний курса «Android
+                                        Старт». Вы можете ознакомиться со списком уроков этого курса.
+                                    </p>
+                                </div>
+
+                            </div>
+
+                            <div class="col-lg-5">
+                                <div class="course-list">
+                                    <div class="course-list__head">
+                                        <span class="icon icon-list"></span>
+                                        Список тем и уроков
+                                    </div>
+
+                                    <ul class="course-list__body accordion" id="course-list2">
+
+                                        <li class="course-list__item">
+
+                                            <div class="course-list__item-inner" id="course-heading21">
+                                                <a data-toggle="collapse" href="#c2-1" data-toggle="collapse"
+                                                    data-target="#c2-1" aria-expanded="false" aria-controls="c1-1"></a>
+
+                                                <span>Жизненный цикл активностей</span>
+
+                                                <span class="course-list__dur">
+                                                    47:27
+                                                </span>
+
+                                            </div>
+
+                                            <ul class="collapse show" id="c2-1" aria-labelledby="course-heading21"
+                                                data-parent="#course-list2">
+                                                <li class="course-list__item">
+                                                    <div class="course-list__item-inner">
+                                                        <span>Создаем приложение Таймер. Класс Handler</span>
+
+                                                        <span class="course-list__dur">
+                                                            20:56
+                                                        </span>
+                                                    </div>
+                                                </li>
+
+                                                <li class="course-list__item">
+                                                    <div class="course-list__item-inner">
+                                                        <span>Рождение и смерть активностей</span>
+
+                                                        <span class="course-list__dur">
+                                                            12:43
+                                                        </span>
+                                                    </div>
+                                                </li>
+
+                                                <li class="course-list__item">
+                                                    <div class="course-list__item-inner">
+                                                        <span>Методы onStart, onStop, onRestart</span>
+
+                                                        <span class="course-list__dur">
+                                                            06:54
+                                                        </span>
+                                                    </div>
+                                                </li>
+
+                                                <li class="course-list__item">
+                                                    <div class="course-list__item-inner">
+                                                        <span>Потеря фокуса. Методы onPause и onResume</span>
+
+                                                        <span class="course-list__dur">
+                                                            06:54
+                                                        </span>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </li>
+
+                                        <li class="course-list__item" id="course-heading22">
+                                            <div class="course-list__item-inner">
+                                                <a data-toggle="collapse" href="#c2-2" data-toggle="collapse"
+                                                    data-target="#c2-2" aria-expanded="false" aria-controls="c2-2"></a>
+
+                                                <span>Интерфейс. Создание макетов</span>
+
+                                                <span class="course-list__dur">
+                                                    01:36:16
+                                                </span>
+
+                                            </div>
+
+                                            <ul class="collapse" id="c2-2" aria-labelledby="course-heading22"
+                                                data-parent="#course-list2">
+                                                <li class="course-list__item">
+                                                    <div class="course-list__item-inner">
+                                                        <span>Введение. Обзор приложения</span>
+
+                                                        <span class="course-list__dur">
+                                                            02:46
+                                                        </span>
+                                                    </div>
+                                                </li>
+
+                                                <li class="course-list__item">
+                                                    <div class="course-list__item-inner">
+                                                        <span>Создание приложения Cafe Order</span>
+
+                                                        <span class="course-list__dur">
+                                                            23:05
+                                                        </span>
+                                                    </div>
+                                                </li>
+
+                                                <li class="course-list__item">
+                                                    <div class="course-list__item-inner">
+                                                        <span> Cafe Order. Toast - всплывающие сообщения</span>
+
+                                                        <span class="course-list__dur">
+                                                            10:56
+                                                        </span>
+                                                    </div>
+                                                </li>
+
+                                                <li class="course-list__item">
+                                                    <div class="course-list__item-inner">
+                                                        <span> Cafe Order. Constraint Layout</span>
+
+                                                        <span class="course-list__dur">
+                                                            27:33
+                                                        </span>
+                                                    </div>
+                                                </li>
+
+                                                <li class="course-list__item">
+                                                    <div class="course-list__item-inner">
+                                                        <span>Cafe Order. Работаем с View из активности</span>
+
+                                                        <span class="course-list__dur">
+                                                            24:29
+                                                        </span>
+                                                    </div>
+                                                </li>
+
+                                                <li class="course-list__item">
+                                                    <div class="course-list__item-inner">
+                                                        <span>Завершение приложения Cafe Order. ScrollView</span>
+
+                                                        <span class="course-list__dur">
+                                                            07:27
+                                                        </span>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </li>
+
+                                        <li class="course-list__item" id="course-heading23">
+                                            <div class="course-list__item-inner">
+                                                <a data-toggle="collapse" href="#c2-3" data-toggle="collapse"
+                                                    data-target="#c2-3" aria-expanded="false" aria-controls="c2-3"></a>
+
+                                                <span>ListView, адаптеры и слушатели событий</span>
+
+                                                <span class="course-list__dur">
+                                                    52:58
+                                                </span>
+
+                                            </div>
+
+                                            <ul class="collapse" id="c2-3" aria-labelledby="course-heading23"
+                                                data-parent="#course-list2">
+                                                <li class="course-list__item">
+                                                    <div class="course-list__item-inner">
+                                                        <span>Обзор приложения для магазина инструментов</span>
+
+                                                        <span class="course-list__dur">
+                                                            01:05
+                                                        </span>
+                                                    </div>
+                                                </li>
+
+                                                <li class="course-list__item">
+                                                    <div class="course-list__item-inner">
+                                                        <span>Создание Tools Shop. Слушатели событий</span>
+
+                                                        <span class="course-list__dur">
+                                                            12:01
+                                                        </span>
+                                                    </div>
+                                                </li>
+
+                                                <li class="course-list__item">
+                                                    <div class="course-list__item-inner">
+                                                        <span>Tools Shop часть 2. Адаптер ListView</span>
+
+                                                        <span class="course-list__dur">
+                                                            15:26
+                                                        </span>
+                                                    </div>
+                                                </li>
+
+                                                <li class="course-list__item">
+                                                    <div class="course-list__item-inner">
+                                                        <span>Tools Shop часть 3. Завершение приложения</span>
+
+                                                        <span class="course-list__dur">
+                                                            09:49
+                                                        </span>
+                                                    </div>
+                                                </li>
+
+                                                <li class="course-list__item">
+                                                    <div class="course-list__item-inner">
+                                                        <span>Закрепляем материал. Создаем Times Table</span>
+
+                                                        <span class="course-list__dur">
+                                                            14:37
+                                                        </span>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </li>
+
+                                        <li class="course-list__item" id="course-heading24">
+                                            <div class="course-list__item-inner">
+                                                <a data-toggle="collapse" href="#c2-4" data-toggle="collapse"
+                                                    data-target="#c2-4" aria-expanded="false" aria-controls="c2-4"></a>
+
+                                                <span>Получаем данные из интернета. JSON</span>
+
+                                                <span class="course-list__dur">
+                                                    01:51:18
+                                                </span>
+
+                                            </div>
+
+                                            <ul class="collapse" id="c2-4" aria-labelledby="course-heading24"
+                                                data-parent="#course-list2">
+                                                <li class="course-list__item">
+                                                    <div class="course-list__item-inner">
+                                                        <span>Получение данных из интернета</span>
+
+                                                        <span class="course-list__dur">
+                                                            19:55
+                                                        </span>
+                                                    </div>
+                                                </li>
+
+                                                <li class="course-list__item">
+                                                    <div class="course-list__item-inner">
+                                                        <span>Загружаем изображения из интернета</span>
+
+                                                        <span class="course-list__dur">
+                                                            08:46
+                                                        </span>
+                                                    </div>
+                                                </li>
+
+                                                <li class="course-list__item">
+                                                    <div class="course-list__item-inner">
+                                                        <span>Работа со строками продвинутый уровень</span>
+
+                                                        <span class="course-list__dur">
+                                                            10:40
+                                                        </span>
+                                                    </div>
+                                                </li>
+
+                                                <li class="course-list__item">
+                                                    <div class="course-list__item-inner">
+                                                        <span>Создание приложения Guess Star</span>
+
+                                                        <span class="course-list__dur">
+                                                            31:49
+                                                        </span>
+                                                    </div>
+                                                </li>
+
+                                                <li class="course-list__item">
+                                                    <div class="course-list__item-inner">
+                                                        <span>Работа с JSON</span>
+
+                                                        <span class="course-list__dur">
+                                                            16:55
+                                                        </span>
+                                                    </div>
+                                                </li>
+
+                                                <li class="course-list__item">
+                                                    <div class="course-list__item-inner">
+                                                        <span>Создание приложения Weather App</span>
+
+                                                        <span class="course-list__dur">
+                                                            23:13
+                                                        </span>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </li>
+
+                                        <li class="course-list__item" id="course-heading25">
+                                            <div class="course-list__item-inner">
+                                                <a data-toggle="collapse" href="#c2-5" data-toggle="collapse"
+                                                    data-target="#c2-5" aria-expanded="false" aria-controls="c2-5"></a>
+
+                                                <span>Постоянное хранение данных</span>
+
+                                                <span class="course-list__dur">
+                                                    03:10:02
+                                                </span>
+
+                                            </div>
+
+                                            <ul class="collapse" id="c2-5" aria-labelledby="course-heading25"
+                                                data-parent="#course-list2">
+                                                <li class="course-list__item">
+                                                    <div class="course-list__item-inner">
+                                                        <span>Shared Preferences. Тренажер для мозга</span>
+
+                                                        <span class="course-list__dur">
+                                                            49:19
+                                                        </span>
+                                                    </div>
+                                                </li>
+
+                                                <li class="course-list__item">
+                                                    <div class="course-list__item-inner">
+                                                        <span>RecyclerView + ViewHolder</span>
+
+                                                        <span class="course-list__dur">
+                                                            20:39
+                                                        </span>
+                                                    </div>
+                                                </li>
+
+                                                <li class="course-list__item">
+                                                    <div class="course-list__item-inner">
+                                                        <span>Дорабатываем приложение Заметки</span>
+
+                                                        <span class="course-list__dur">
+                                                            25:16
+                                                        </span>
+                                                    </div>
+                                                </li>
+
+                                                <li class="course-list__item">
+                                                    <div class="course-list__item-inner">
+                                                        <span>Custom Listeners. Удаление элементов свайпом</span>
+
+                                                        <span class="course-list__dur">
+                                                            10:41
+                                                        </span>
+                                                    </div>
+                                                </li>
+
+                                                <li class="course-list__item">
+                                                    <div class="course-list__item-inner">
+                                                        <span>Классы Contract, SQLiteOpenHelper и Cursor</span>
+
+                                                        <span class="course-list__dur">
+                                                            25:41
+                                                        </span>
+                                                    </div>
+                                                </li>
+
+                                                <li class="course-list__item">
+                                                    <div class="course-list__item-inner">
+                                                        <span>SQLite продолжение</span>
+
+                                                        <span class="course-list__dur">
+                                                            22:18
+                                                        </span>
+                                                    </div>
+                                                </li>
+
+                                                <li class="course-list__item">
+                                                    <div class="course-list__item-inner">
+                                                        <span>Введение в AAC (Room, LiveData, LifeCycle)</span>
+
+                                                        <span class="course-list__dur">
+                                                            05:58
+                                                        </span>
+                                                    </div>
+                                                </li>
+
+                                                <li class="course-list__item">
+                                                    <div class="course-list__item-inner">
+                                                        <span>Room. Шаблон проектирования Singleton</span>
+
+                                                        <span class="course-list__dur">
+                                                            15:23
+                                                        </span>
+                                                    </div>
+                                                </li>
+
+                                                <li class="course-list__item">
+                                                    <div class="course-list__item-inner">
+                                                        <span>LiveData, LifeCycle и Observer</span>
+
+                                                        <span class="course-list__dur">
+                                                            14:47
+                                                        </span>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </li>
+
+                                        <li class="course-list__item" id="course-heading26">
+                                            <div class="course-list__item-inner">
+                                                <a data-toggle="collapse" href="#c2-6" data-toggle="collapse"
+                                                    data-target="#c2-6" aria-expanded="false" aria-controls="c2-6"></a>
+
+                                                <span>Курсовой проект My Movies</span>
+
+                                                <span class="course-list__dur">
+                                                    03:59:57
+                                                </span>
+
+                                            </div>
+
+                                            <ul class="collapse" id="c2-6" aria-labelledby="course-heading24"
+                                                data-parent="#course-list2">
+                                                <li class="course-list__item">
+                                                    <div class="course-list__item-inner">
+                                                        <span>Создание приложения My Movies</span>
+
+                                                        <span class="course-list__dur">
+                                                            03:34:35
+                                                        </span>
+                                                    </div>
+                                                </li>
+
+                                                <li class="course-list__item">
+                                                    <div class="course-list__item-inner">
+                                                        <span>Заливаем приложение в Play Market</span>
+
+                                                        <span class="course-list__dur">
+                                                            16:45
+                                                        </span>
+                                                    </div>
+                                                </li>
+
+                                                <li class="course-list__item">
+                                                    <div class="course-list__item-inner">
+                                                        <span>Финал. Советы по началу карьеры. Git - система контроля
+                                                            версий</span>
+
+                                                        <span class="course-list__dur">
+                                                            08:37
+                                                        </span>
+                                                    </div>
+                                                </li>
+
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div> <!-- COURSE Advanced : end -->
+
+            <!-- COURSE Design : start -->
+            <div id="course-3" class="course course-start section">
+                <div class="container">
+                    <div class="section-head bg-course3 text-center">
+                        <h2 class="section-title text-white">
+                            Курс 3. UI / UX Дизайн Android-приложений
+                        </h2>
+                        <div class="section-meta text-white">
+                            Создание современного дизайна интерфейсов мобильных приложений
+                        </div>
+                    </div>
+
+                    <div class="course-inner">
+                        <div class="row">
+                            <div class="col-lg-7">
+
+                                <div class="d-sm-flex align-items-center justify-content-between">
+                                    <div class="fact fact-lg bg-course3">
+                                        <div class="d-flex align-items-center">
+                                            <div class="fact-icon">
+                                                <span class="icon icon-dur"></span>
+                                            </div>
+                                            <div class="fact-text">
+                                                <strong>3</strong> часа и <strong>2</strong> минуты
+                                                видеоматериала
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="fact fact-lg bg-course3">
+                                        <div class="d-flex align-items-center flex-sm-row-reverse">
+                                            <div class="fact-icon">
+                                                <span class="icon icon-student"></span>
+                                            </div>
+                                            <div class="fact-text">
+                                                <strong>15</strong> видеоуроков <br>в <strong>5</strong> разделах
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="d-sm-flex align-items-center justify-content-between">
+                                    <div class="fact bg-course3">
+                                        <div class="d-flex align-items-center">
+                                            <div class="fact-text">
+                                                Adobe Photoshop
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="fact bg-course3">
+                                        <div class="d-flex align-items-center">
+                                            <div class="fact-text">
+                                                Adobe Illustrator
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="fact bg-course3">
+                                        <div class="d-flex align-items-center">
+                                            <div class="fact-text">
+                                                Axure RP
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="consultation bg-5">
+                                    <div class="d-sm-flex align-items-center">
+                                        <div class="consultation-icon">
+                                            <img src="img/icon-consultation.png" alt="">
+                                        </div>
+
+                                        <div class="consultation-body">
+                                            <h6 class="consultation-title">
+                                                Консультации с дизайнером
+                                            </h6>
+
+                                            <div class="consultation-text">
+                                                У вас удет возможность задавать вопросы специалисту в области мобильного
+                                                дизайна. В течение 24 часов вы получите ответ на любой вопрос, который
+                                                возникнет у вас при прохождении данного курса.
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="col-lg-5">
+
+                                <div class="course-video">
+                                    <a data-fancybox data-width="640" data-height="360" href="media/course-3.mp4">
+                                        <img src="img/video-4.png" alt="" class="img-fluid">
+
+                                        <span class="video-mask">
+                                            <span class="video-mask__inner">
+                                                <span class="icon icon-play"></span>
+
+                                                <span class="video-title">Демо видео</span>
+                                            </span>
+                                        </span>
+                                    </a>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-lg-7 mb-4">
+
+                                <div class="consultation mb-0 h-100 bg-6">
+                                    <div class="d-sm-flex align-items-center">
+                                        <div class="consultation-icon">
+                                            <img src="img/icon-sert.png" alt="">
+                                        </div>
+
+                                        <div class="consultation-body">
+                                            <h6 class="consultation-title">
+                                                Сертификат об окончании
+                                            </h6>
+
+                                            <div class="consultation-text">
+                                                После прохождения курса и успешного выполнения финального теста вы
+                                                получите сертификат, который поможет вам при устройстве на работу. Более
+                                                подробную информацию вы можете узнать в разделе помощь.
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="col-lg-5 mb-4">
+                                <div class="price mb-0 bg-course3">
+                                    <div class="d-flex flex-wrap">
+
+                                        <div class="price-col">
+                                            <div class="price-total">
+                                                <div class="price-new">
+                                                    <span class="price-val" data-sale="59" data-priceHandler=639>
+                                                        639
+                                                    </span>
+                                                    &#8381;
+                                                    <!-- <span class="icon icon-rub"></span> -->
+                                                </div>
+
+                                                <div class="price-old">
+                                                    <span class="price-val">
+                                                        799
+                                                    </span>
+                                                    &#8381;
+                                                </div>
+                                            </div>
+                                            <div class="price-time">
+                                                Осталось: <span class="timer price-time__val" data-timer></span>
+                                            </div>
+                                        </div>
+
+                                        <div class="price-col">
+                                            <div class="coupon">
+                                                <div>
+                                                    <div class="coupon-label" data-cuponText>
+                                                        Есть скидочный купон?
+                                                    </div>
+                                                    <div class="coupon-group">
+                                                        <input type="text" name="coupon" class="coupon-control"
+                                                            placeholder="Введите купон" data-cuponInp>
+
+                                                        <button class="btn coupon-btn" data-cuponBtn>
+                                                            Применить
+                                                        </button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="price-col">
+                                            <button class="d-block btn btn-lg btn-success" data-addCourse="3">
+                                                Добавить в корзину
+                                            </button>
+                                        </div>
+
+                                        <div class="price-col">
+
+                                            <a data-fancybox data-src="#basket" href="javascript:;"
+                                                class="d-block btn btn-lg btn-outline-light">
+                                                Перейти к корзине
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-lg-7">
+                                <div class="course-body">
+                                    <h6 class="course-subtitle">
+                                        Описание курса
+                                    </h6>
+
+                                    <p>
+                                        Данный курс содержит все необходимые знания для прототипирования и создания
+                                        дизайна мобильных приложений. Вы узнаете основные тренды в дизайне мобильных
+                                        приложений, изучите гайдлайны Android и iOS. Вы узнаете, какие программы
+                                        использовать для определенных задач в дизайне мобильных приложений и как их
+                                        настраивать.
+                                    </p>
+                                    <p>
+                                        Вы научитесь создавать схемы экранов приложений и скетчи их интерфейсов,
+                                        научитесь делать анимацию работы экранов приложения и узнаете, как создавать
+                                        презентацию приложения для заказчика. Все это вы освоите на протяжении 15-ти
+                                        занятий, которые построены так, чтобы в течении небольшого промежутка времени
+                                        дать вам только нужную и необходимую информацию.
+                                    </p>
+                                    <p>
+                                        По итогам изучения у вас будет необходимый багаж знаний для того, чтобы начать
+                                        создавать современные, семантичные и просто красивые дизайны для ваших мобильных
+                                        приложений.
+                                    </p>
+
+
+                                </div>
+
+                                <div class="course-body">
+                                    <h6 class="course-subtitle">
+                                        Минимальные требования
+                                    </h6>
+
+                                    <p>
+                                        Отсутствуют. База знаний курса «Android Старт» будет плюсом. Вы можете
+                                        ознакомиться со списком уроков этого курса.
+                                    </p>
+                                </div>
+
+                            </div>
+
+                            <div class="col-lg-5">
+                                <div class="course-list">
+                                    <div class="course-list__head">
+                                        <span class="icon icon-list"></span>
+                                        Список тем и уроков
+                                    </div>
+
+                                    <ul class="course-list__body accordion" id="course-list3">
+
+                                        <li class="course-list__item">
+
+                                            <div class="course-list__item-inner" id="course-heading31">
+                                                <a data-toggle="collapse" href="#c3-1" data-toggle="collapse"
+                                                    data-target="#c3-1" aria-expanded="false" aria-controls="c1-1"></a>
+
+                                                <span>Вступление</span>
+
+                                                <span class="course-list__dur">
+                                                    39:48
+                                                </span>
+
+                                            </div>
+
+                                            <ul class="collapse show" id="c3-1" aria-labelledby="course-heading31"
+                                                data-parent="#course-list3">
+                                                <li class="course-list__item">
+                                                    <div class="course-list__item-inner">
+                                                        <span>О мобильных приложениях. Основные тренды.</span>
+
+                                                        <span class="course-list__dur">
+                                                            11:24
+                                                        </span>
+                                                    </div>
+                                                </li>
+
+                                                <li class="course-list__item">
+                                                    <div class="course-list__item-inner">
+                                                        <span> Гайдлайны iOS и Android</span>
+
+                                                        <span class="course-list__dur">
+                                                            17:50
+                                                        </span>
+                                                    </div>
+                                                </li>
+
+                                                <li class="course-list__item">
+                                                    <div class="course-list__item-inner">
+                                                        <span>Процесс работы и постановка задачи по созданию мобильного
+                                                            приложения</span>
+
+                                                        <span class="course-list__dur">
+                                                            10:34
+                                                        </span>
+                                                    </div>
+                                                </li>
+
+
+                                            </ul>
+                                        </li>
+
+                                        <li class="course-list__item" id="course-heading32">
+                                            <div class="course-list__item-inner">
+                                                <a data-toggle="collapse" href="#c3-2" data-toggle="collapse"
+                                                    data-target="#c3-2" aria-expanded="false" aria-controls="c3-2"></a>
+
+                                                <span>Первый этап создания мобильного приложения</span>
+
+                                                <span class="course-list__dur">
+                                                    28:53
+                                                </span>
+
+                                            </div>
+
+                                            <ul class="collapse" id="c3-2" aria-labelledby="course-heading32"
+                                                data-parent="#course-list3">
+                                                <li class="course-list__item">
+                                                    <div class="course-list__item-inner">
+                                                        <span>Изучение приложений конкурентов</span>
+
+                                                        <span class="course-list__dur">
+                                                            08:50
+                                                        </span>
+                                                    </div>
+                                                </li>
+
+                                                <li class="course-list__item">
+                                                    <div class="course-list__item-inner">
+                                                        <span>Создание списка элементов для мобильного приложения</span>
+
+                                                        <span class="course-list__dur">
+                                                            08:37
+                                                        </span>
+                                                    </div>
+                                                </li>
+
+                                                <li class="course-list__item">
+                                                    <div class="course-list__item-inner">
+                                                        <span>Создание схемы экранов приложения</span>
+
+                                                        <span class="course-list__dur">
+                                                            11:26
+                                                        </span>
+                                                    </div>
+                                                </li>
+
+
+                                            </ul>
+                                        </li>
+
+                                        <li class="course-list__item" id="course-heading33">
+                                            <div class="course-list__item-inner">
+                                                <a data-toggle="collapse" href="#c3-3" data-toggle="collapse"
+                                                    data-target="#c3-3" aria-expanded="false" aria-controls="c3-3"></a>
+
+                                                <span>Второй этап создания мобильного приложения</span>
+
+                                                <span class="course-list__dur">
+                                                    26:55
+                                                </span>
+
+                                            </div>
+
+                                            <ul class="collapse" id="c3-3" aria-labelledby="course-heading33"
+                                                data-parent="#course-list3">
+                                                <li class="course-list__item">
+                                                    <div class="course-list__item-inner">
+                                                        <span>Создание скетча интерфейса приложения</span>
+
+                                                        <span class="course-list__dur">
+                                                            09:39
+                                                        </span>
+                                                    </div>
+                                                </li>
+
+                                                <li class="course-list__item">
+                                                    <div class="course-list__item-inner">
+                                                        <span>Создание скетча интерфейса приложения</span>
+
+                                                        <span class="course-list__dur">
+                                                            06:47
+                                                        </span>
+                                                    </div>
+                                                </li>
+
+                                                <li class="course-list__item">
+                                                    <div class="course-list__item-inner">
+                                                        <span>Создание скетча интерфейса приложения</span>
+
+                                                        <span class="course-list__dur">
+                                                            10:29
+                                                        </span>
+                                                    </div>
+                                                </li>
+
+
+                                            </ul>
+                                        </li>
+
+                                        <li class="course-list__item" id="course-heading34">
+                                            <div class="course-list__item-inner">
+                                                <a data-toggle="collapse" href="#c3-4" data-toggle="collapse"
+                                                    data-target="#c3-4" aria-expanded="false" aria-controls="c3-4"></a>
+
+                                                <span>Третий этап создания мобильного приложения</span>
+
+                                                <span class="course-list__dur">
+                                                    44:27
+                                                </span>
+
+                                            </div>
+
+                                            <ul class="collapse" id="c3-4" aria-labelledby="course-heading34"
+                                                data-parent="#course-list3">
+                                                <li class="course-list__item">
+                                                    <div class="course-list__item-inner">
+                                                        <span>Создание дизайна экранов приложения</span>
+
+                                                        <span class="course-list__dur">
+                                                            16:55
+                                                        </span>
+                                                    </div>
+                                                </li>
+
+                                                <li class="course-list__item">
+                                                    <div class="course-list__item-inner">
+                                                        <span>Создание дизайна экранов приложения</span>
+
+                                                        <span class="course-list__dur">
+                                                            12:24
+                                                        </span>
+                                                    </div>
+                                                </li>
+
+                                                <li class="course-list__item">
+                                                    <div class="course-list__item-inner">
+                                                        <span>Создание дизайна экранов приложения</span>
+
+                                                        <span class="course-list__dur">
+                                                            15:40
+                                                        </span>
+                                                    </div>
+                                                </li>
+
+                                            </ul>
+                                        </li>
+
+                                        <li class="course-list__item" id="course-heading35">
+                                            <div class="course-list__item-inner">
+                                                <a data-toggle="collapse" href="#c3-5" data-toggle="collapse"
+                                                    data-target="#c3-5" aria-expanded="false" aria-controls="c3-5"></a>
+
+                                                <span>Заключительный этап создания дизайна приложения</span>
+
+                                                <span class="course-list__dur">
+                                                    33:47
+                                                </span>
+
+                                            </div>
+
+                                            <ul class="collapse" id="c3-5" aria-labelledby="course-heading35"
+                                                data-parent="#course-list3">
+                                                <li class="course-list__item">
+                                                    <div class="course-list__item-inner">
+                                                        <span>Создание дизайна экранов МП</span>
+
+                                                        <span class="course-list__dur">
+                                                            15:23
+                                                        </span>
+                                                    </div>
+                                                </li>
+
+                                                <li class="course-list__item">
+                                                    <div class="course-list__item-inner">
+                                                        <span>Создание рабочей версии дизайна (анимация)</span>
+
+                                                        <span class="course-list__dur">
+                                                            13:56
+                                                        </span>
+                                                    </div>
+                                                </li>
+
+                                                <li class="course-list__item">
+                                                    <div class="course-list__item-inner">
+                                                        <span>Создание презентации приложения для заказчика</span>
+
+                                                        <span class="course-list__dur">
+                                                            04:28
+                                                        </span>
+                                                    </div>
+                                                </li>
+
+                                            </ul>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div> <!-- COURSE Disigner : end -->
+
+            <!-- Reviews : start -->
+            <div class="reviews section">
+                <div class="container">
+                    <div class="section-head bg-1 text-center">
+                        <h2 class="section-title text-white">
+                            Отзывы наших учеников
+                        </h2>
+                    </div>
+
+                    <div class="reviews-slider">
+                        <div>
+                            <div class="reviews-item">
+                                <div class="d-sm-flex">
+                                    <div class="reviews-item__left">
+                                        <div class="reviews-user">
+                                            <img data-lazy="img/reviews/user-1.png" alt="">
+                                        </div>
+
+                                        <div class="reviews-name">
+                                            Антон <br> Матвеев
+                                        </div>
+
+                                        <ul class="reviews-contact list-inline">
+                                            <li class="list-inline-item">
+                                                <a href="https://vk.com/nebozdes" target="_blank">
+                                                    <span class="icon icon-facebook"></span>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+
+                                    <div class="reviews-item__body">
+                                        <div class="reviews-text">
+                                            До курса не было никакого опыта программирования. Прошел курс “Android
+                                            Старт”. Грамотно продумано, что в начале курса уделяется большое внимание
+                                            Java. Отличная подача материала, рекомендую его всем новичкам,
+                                            заинтересованным в Android-разработке. Уже приступил к изучению следующего
+                                            курса “Android Продвинутый”. По прохождению дополню отзыв.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div>
+                            <div class="reviews-item">
+                                <div class="d-sm-flex">
+                                    <div class="reviews-item__left">
+                                        <div class="reviews-user">
+                                            <img data-lazy="img/reviews/user-2.png" alt="">
+                                        </div>
+
+                                        <div class="reviews-name">
+                                            Петр <br> Боков
+                                        </div>
+
+                                        <ul class="reviews-contact list-inline">
+                                            <li class="list-inline-item">
+                                                <a href="https://vk.com/deathhodd" target="_blank">
+                                                    <span class="icon icon-facebook"></span>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+
+                                    <div class="reviews-item__body">
+                                        <div class="reviews-text">
+                                            У меня был опыт разработки на Android пять лет назад. Я взял этот курс,
+                                            надеясь, что он поможет мне освоить нынешние тренды в разработке приложений
+                                            под Android, и этот курс меня не разочаровал. Так что для тех, кто ищет
+                                            отличную отправную точку, этот курс вы должны пройти.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div>
+                            <div class="reviews-item">
+                                <div class="d-sm-flex">
+                                    <div class="reviews-item__left">
+                                        <div class="reviews-user">
+                                            <img data-lazy="img/reviews/user-3.png" alt="">
+                                        </div>
+
+                                        <div class="reviews-name">
+                                            Владимир <br> Карпинский
+                                        </div>
+
+                                        <ul class="reviews-contact list-inline">
+                                            <li class="list-inline-item">
+                                                <a href="https://vk.com/maxvel_trade" target="_blank">
+                                                    <span class="icon icon-facebook"></span>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+
+                                    <div class="reviews-item__body">
+                                        <div class="reviews-text">
+                                            Понравились скорость предоставления новой информации и уровень детализации,
+                                            а также постоянное использование документации для объяснения причин каждого
+                                            шага и использования различных классов и объектов. Что мне больше всего
+                                            нравится в курсе, так это то, что фактор опыта преподавателя особенно
+                                            очевиден при написании очень эффективных блоков кода Java. Это мой самый
+                                            сильный и подробный курс Android.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="reviews-item">
+                                <div class="d-sm-flex">
+                                    <div class="reviews-item__left">
+                                        <div class="reviews-user">
+                                            <img data-lazy="img/reviews/user-4.png" alt="">
+                                        </div>
+
+                                        <div class="reviews-name">
+                                            Василий <br> Богданов
+                                        </div>
+
+                                        <ul class="reviews-contact list-inline">
+                                            <li class="list-inline-item">
+                                                <a href="https://vk.com/vasil.bogdanov" target="_blank">
+                                                    <span class="icon icon-facebook"></span>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+
+                                    <div class="reviews-item__body">
+                                        <div class="reviews-text">
+                                            Это, безусловно, лучший курс, доступный для разработки под Android, никогда
+                                            раньше не занимался программированием, хотя думал, что я не смогу научиться
+                                            программированию. Но курс действительно сделан достойно и преподаватель
+                                            делает все возможное чтобы преподнести всю информацию интересно и доходчиво.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> <!-- Reviews : end -->
+
+        </main> <!-- Main content  : end -->
+
+        <!-- Page Footer : start -->
+        <footer id="footer" class="page-footer">
+            <div class="page-footer__top">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 col-lg-3 mb-2">
+                            <a class="navbar-brand m_PageScroll2id" href="#top">
+                                <img src="img/logo-footer.png" alt="Androiddemy.com Курсы Android по разработке"
+                                    class="img-fluid">
+                            </a>
+                        </div>
+
+                        <div class="col-md-6 col-lg-3 mb-2">
+                            <ul class="navbar-nav page-footer__menu ">
+
+                                <li class="nav-item">
+                                    <a class="nav-link" data-fancybox data-src="#help" href="javascript:;">
+                                        Помощь
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link m_PageScroll2id" href="#course-1">
+                                        Курсы
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link m_PageScroll2id" href="#reviews">
+                                        Отзывы
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link m_PageScroll2id" href="#course-1">
+                                        Цены
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="col-md-6 col-lg-4 mb-2">
+                            <div class="payment">
+                                <h6 class="page-footer__title">
+                                    Мы принимаем
+                                </h6>
+
+                                <ul class="payment-list list-inline">
+                                    <a href="//www.free-kassa.ru/"><img src="//www.free-kassa.ru/img/fk_btn/15.png"
+                                            title="Прием платежей на сайте"></a>
+                                    <li class="list-inline-item">
+                                        <span class="icon icon-mc"></span>
+
+                                    </li>
+                                    <li class="list-inline-item">
+                                        <span class="icon icon-visa"></span>
+
+                                    </li>
+
+                                    <li class="list-inline-item">
+                                        <span class="icon icon-qivi"></span>
+
+                                    </li>
+                                    <!-- <li class="list-inline-item">
+                                        <span class="icon icon-sb"></span>
+                                        
+                                    </li> -->
+                                    <li class="list-inline-item">
+                                        <span class="icon icon-wm"></span>
+
+                                    </li>
+                                    <li class="list-inline-item">
+                                        <span class="icon icon-yd"></span>
+
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 col-lg-2 mb-2">
+                            <div class="contact">
+                                <h6 class="page-footer__title">
+                                    Контакты:
+                                </h6>
+
+                                <ul class="social-list list-inline">
+                                    <!-- <li class="list-inline-item">
+                                        <a href="#" target="_blank" class="social-link social-instagram">
+                                            <span class="icon icon-insta"></span>
+                                        </a>
+                                    </li> -->
+                                    <li class="list-inline-item">
+                                        <a href="https://t.me/androiddemy" target="_blank"
+                                            class="social-link social-telegram">
+                                            <span class="icon icon-telegram"></span>
+                                        </a>
+                                    </li>
+                                    <li class="list-inline-item">
+                                        <a href="javascript:void(Tawk_API.toggle())" target="_blank"
+                                            class="social-link social-wapp">
+                                            <span class="icon icon-wapp"></span>
+                                        </a>
+                                    </li>
+                                    <li class="list-inline-item">
+                                        <a href="mailto:support@androiddemy.com" class="social-link social-mail">
+                                            <span class="icon icon-mail"></span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="page-footer__bottom">
+                <div class="container">
+                    <div class="copyright">
+                        Авторские права &copy; <a href="androiddemy.com">androiddemy.com</a> - Курсы по Android
+                        разработке 2019
+                    </div>
+                </div>
+            </div>
+        </footer> <!-- Page Footer : end -->
+
+
+
+        <!-- Fancybox Modal : start -->
+        <!-- <a data-fancybox data-src="#help" href="javascript:;" class="btn btn-basket">Помощь</a> -->
+
+        <div id="help" class="fancy-modal fancy-win">
+            <div class="form-head">
+                <h6 class="form-title">
+                    <span>ПомоЩЬ</span>
+                </h6>
+            </div>
+
+            <div class="form-body">
+                <div class="form-content">
+                    <h5>
+                        Куда я могу обратиться, если в процессе обучения у меня возникнут вопросы?
+                    </h5>
+                    <p>
+                        Любые вопросы, которые у вас возникают во время прохождения курса, вы можете задавать в
+                        онлайн-чат либо на почту техподдержки: support@androiddemy.com. На ваши вопросы с радостью
+                        ответит преподаватель либо консультант.
+                    </p>
+
+                    <h5>
+                        Как проходит обучение?
+                    </h5>
+                    <p>
+                        После приобретения курсов вам на почту приходит письмо, которое содержит ссылку на архив со
+                        всеми материалами. После скачивания курса вы сможете сразу приступить к обучению.
+                    </p>
+                    <h5>
+                        Я не из России, могу ли я купить ваш курс?
+                    </h5>
+                    <p>
+                        Да, можете. Доступные способы оплаты для вас: карты Visa/MasterCard/Maestro, Яндекс.Деньги,
+                        WebMoney, QIWI Wallet.
+                    </p>
+
+
+                    <h5>
+                        Подходит ли Mac OS для обучения?
+                    </h5>
+                    <p>
+                        Да. Данный видеокурс подходит как для Windows, так и для OS X (Mac OS).
+                    </p>
+                    <h5>
+                        Сертификация
+                    </h5>
+                    <p>
+                        После прохождения наших курсов обучения вы можете сдать финальный экзаменационный тест. После
+                        успешной сдачи экзамена вы получите сертификат об окончании, который поможет вам
+                        продемонстрировать ваши достижения работодателю. Но учтите, что AndroidDemy не является
+                        аккредитованным учреждением, в результате чего сертификаты не могут использоваться для
+                        официальной аккредитации.
+                        <br>
+                        Если вы уже окончили обучение и желаете получить сертификат, обращайтесь на
+                        support@androiddemy.com
+                    </p>
+                    <h5>
+                        Не нашли ответ на свой вопрос?
+                    </h5>
+                    <p>
+                        Обратитесь к нашему онлайн-консультанту. Кнопка онлайн-консультанта расположена в правом нижнем
+                        углу страницы. Либо вы можете написать нам на support@androiddemy.com
+                    </p>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- <a data-fancybox data-src="#basket" href="javascript:;" class="btn btn-basket " >Корзина</a> -->
+        <div id="basket" class="fancy-modal">
+
+            <form class="form" id="cart_form">
+                <div class="form-head">
+                    <h6 class="form-title">
+                        <span class="icon icon-pay-basket"></span> <span>Корзина </span>
+                    </h6>
+                </div>
+
+                <div class="form-body">
+
+
+                    <div class="basket-info-course">
+                        <h6>
+                            Выберите курсы:
+                        </h6>
+
+                        <ul class="basket-info-course__list">
+                            <li>
+                                <div class="custom-control custom-checkbox">
+                                    <input type="checkbox" class="custom-control-input" id="course1" data-course="1">
+                                    <label class="custom-control-label" for="course1" data-price=959 data-oldPrice=1199>
+                                        <div class="course-name">Android Старт</div>
+
+                                        <div class="basket-info-course__price">
+                                            <strong data-priceHandler=959>959</strong> руб.
+                                        </div>
+                                    </label>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="custom-control custom-checkbox">
+                                    <input type="checkbox" class="custom-control-input" id="course2" data-course="2">
+                                    <label class="custom-control-label" for="course2" data-price=1199
+                                        data-oldPrice=1499>
+                                        <div class="course-name">Android Продвинутый</div>
+
+                                        <div class="basket-info-course__price">
+                                            <strong data-priceHandler=1199>1199</strong> руб.
+                                        </div>
+                                    </label>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="custom-control custom-checkbox">
+                                    <input type="checkbox" class="custom-control-input" id="course3" data-course="3">
+                                    <label class="custom-control-label" for="course3" data-price=639 data-oldPrice=799>
+                                        <div class="course-name">UI/UX Дизайн Приложений</div>
+
+                                        <div class="basket-info-course__price">
+                                            <strong data-priceHandler=639>639</strong> руб.
+                                        </div>
+                                    </label>
+                                </div>
+                            </li>
+                        </ul>
+
+                        <!-- <div class="basket-info-course__info">
+                            <span class="icon icon-sale"></span> Скидка -20% при покупке от двух курсов
+                        </div> -->
+                    </div>
+
+                    <div class="basket-info-email">
+                        <h6>
+                            Введите вашу почту:
+                        </h6>
+                        <div class="form-group">
+                            <input type="email" name="email" class="form-control" data-rule-required="true"
+                                data-msg="Ошибка при заполнении" placeholder="Введите ваш email" data-email>
+                            <input type="email" name="email" class="form-control" data-rule-required="true"
+                                data-msg="Ошибка при заполнении" placeholder="Повторите ваш email" data-email>
+                            <div class="error form-text" data-error></div>
+                            <small class="form-text">
+                                Вводите почту внимательно, на неё будут отправлены материалы обучения.
+                            </small>
+                        </div>
+                    </div>
+
+                    <div class="basket-info-sum">
+                        <div class="payment__text" id="buy_text">
+                            <span>Ваш заказ: </span> Ничего не выбрано
+                        </div>
+                        К оплате: <span class="basket-sum__curent"> <strong id="total_price">0</strong> руб.</span>
+                        <span id="old_price_all" class="basket-sum__old"> <strong id="old_price">0</strong> руб.</span>
+                    </div>
+
+                    <div class="basket-info-pay">
+                        <h6>
+                            Выберите способ оплаты:
+                        </h6>
+
+                        <ul class="basket-info-pay__list">
+                            <li>
+                                <div class="custom-control custom-radio">
+                                    <input type="submit" id="pay1" name="basketPay" class="custom-control-input"
+                                        data-paytype="1">
+                                    <label class="custom-control-label" for="pay1">
+                                        <span class="icon icon-pay-visa"></span>
+                                        Visa / Mastercard</label>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="custom-control custom-radio">
+                                    <input type="submit" id="pay3" name="basketPay" class="custom-control-input"
+                                        data-paytype="1">
+                                    <label class="custom-control-label" for="pay3">
+                                        <span class="icon icon-pay-qivi"></span>
+                                        QIWI</label>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="custom-control custom-radio">
+                                    <input type="submit" id="pay4" name="basketPay" class="custom-control-input"
+                                        data-paytype="3">
+                                    <label class="custom-control-label" for="pay4">
+                                        <span class="icon icon-pay-yd"></span>
+                                        Яндекс.Деньги</label>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="custom-control custom-radio">
+                                    <input type="submit" id="pay2" name="basketPay" class="custom-control-input"
+                                        data-paytype="2">
+                                    <label class="custom-control-label" for="pay2">
+                                        <span class="icon icon-pay-wm"></span>
+                                        Webmoney</label>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="custom-control custom-radio">
+                                    <input type="submit" id="pay5" name="basketPay" class="custom-control-input"
+                                        data-paytype="6">
+                                    <label class="custom-control-label" for="pay5">
+                                        <span class="icon icon-pay-sb"></span>
+                                        Приват24</label>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="custom-control custom-radio">
+                                    <input type="submit" id="pay6" name="basketPay" class="custom-control-input"
+                                        data-paytype="1">
+                                    <label class="custom-control-label" for="pay6">
+                                        <span class="icon icon-pay-all"></span>
+                                        Все способы оплаты</label>
+                                </div>
+                            </li>
+                        </ul>
+                        <small class="form-text form-text--center">
+                            Покупая наши курсы, вы соглашаетесь с <br> <a href="policy.txt" target="_blank"
+                                class="policy_link">договором публичной оферты</a>
+                        </small>
+                    </div>
+
+                </div>
+            </form>
+
+        </div>
+    </div>
+
+
+    <!-- Vendor JS -->
+    <script src="libs/jquery/jquery-3.2.1.min.js"></script>
+    <script src="libs/animate/wow.min.js"></script>
+    <script src="libs/slick/slick.min.js"></script>
+    <script src="libs/fancybox/jquery.fancybox.min.js"></script>
+    <script src="libs/mask/masked.js"></script>
+    <script src="libs/PageScroll2id/jquery.malihu.PageScroll2id.min.js"></script>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" crossorigin="anonymous">
+    </script>
+    <script src="libs/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+
+    <!-- Main JS -->
+    <script src="js/main.js"></script>
+
+
+    <!--Start of Tawk.to Script-->
+    <script type="text/javascript">
+        var Tawk_API = Tawk_API || {},
+            Tawk_LoadStart = new Date();
+        (function () {
+            var s1 = document.createElement("script"),
+                s0 = document.getElementsByTagName("script")[0];
+            s1.async = true;
+            s1.src = 'https://embed.tawk.to/5c6b227077e0730ce0439326/default';
+            s1.charset = 'UTF-8';
+            s1.setAttribute('crossorigin', '*');
+            s0.parentNode.insertBefore(s1, s0);
+        })();
+    </script>
+    <!--End of Tawk.to Script-->
+
+</body>
+
+</html>
